@@ -1,0 +1,2 @@
+create volume -name s_prdict10dr006 -size 500gb -type tpv -volume-number 4038 -pool-name HIGH_PERF -allocation thick
+create flexible-tier-volume -volume-number 4241 -ftrp-name PERF_12 -allocation thick -size 1000gb -name r_prdcrm41dr01
